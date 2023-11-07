@@ -1,0 +1,17 @@
+.flashcard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    background-color: green;
+    align-items: center;
+    height: 10rem;
+}
+.flashcard-item {
+}
+
+.flashcard-emoji {
+    font-size: 28px;
+}
+.flashcard-text {
+    font-size: 18px;
+}
