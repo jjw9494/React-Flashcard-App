@@ -1,0 +1,54 @@
+[
+    {
+      "id": "q1",
+      "question": "What is the Virtual DOM in React?",
+      "answer": "The Virtual DOM is a programming concept where a virtual representation of the UI is kept in memory and synced with the real DOM by a library such as ReactDOM. This process is called reconciliation."
+    },
+    {
+        "id": "q2",
+        "question": "What are props in react?",
+        "answer": "Props are short for properties and provide a way to link a parent component to its child component."
+      },
+      {
+        "id": "q3",
+        "question": "What are the 3 phases of a components life cycle?",
+        "answer": "Mounting (creation), updating (state or props change) and unmounting (removal)."
+      },
+      {
+        "id": "q4",
+        "question": "What is JSX in React",
+        "answer": "JSX (JavaScript XML) is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code, making it easier to create React components."
+      },
+      {
+        "id": "q5",
+        "question": "What is a single-page application (SPA) in the context of React?",
+        "answer": "A single-page application is a web application that loads a single HTML page and dynamically updates the content as the user interacts with the app, typically using React Router to handle client-side routing."
+      },
+      {
+        "id": "q6",
+        "question": "Why are key props ",
+        "answer": "Key props in React are essential for uniquely identifying elements in a list and ensuring efficient DOM updates when the list changes. It's important to use stable and unique keys for each list item while avoiding the use of array indices as keys."
+      },
+      {
+        "id": "q7",
+        "question": "What are the two types of component in React?",
+        "answer": "Functional & class-based"
+      },
+      {
+        "id": "q8",
+        "question": "What are hooks?",
+        "answer": "Hooks are a way of making state changes or updating props."
+      },
+      {
+        "id": "q9",
+        "question": "What are the two most common forms of hooks?",
+        "answer": "useState and useEffect"
+      },
+      {
+        "id": "q10",
+        "question": "What is useState",
+        "answer": "A way of updating the props of a compnent."
+      },
+​
+    
+  ]
