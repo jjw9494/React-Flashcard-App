@@ -1,11 +1,13 @@
 .form-container {
     display: flex;
+    width: 100vw;
     gap: 2rem;
     align-content: center;
     text-align: center;
     justify-content: center;
-    background-color: #393939;
+    background-color: #232731;
     padding-block: 1rem;
+    border-block: rgba(255, 255, 255, 0.2) 1px solid;
 }
 
 label {
@@ -16,7 +18,7 @@ input {
 
 button {
     all: unset;
-    background-color: rgb(23, 134, 134);
+    background-color: #07b1df;
     width: 4rem;
     border-radius: 5px;
 }

@@ -6,7 +6,9 @@
     align-items: center;
     text-align: center;
     height: 30vh;
-    background-color: #141414;
+    background-color: #16181f;
+    gap: 1rem;
+    padding-block: 2rem;
 }
 
 .header-logo {

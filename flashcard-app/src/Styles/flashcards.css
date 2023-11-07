@@ -2,11 +2,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100vw;
-    background-color: green;
+    background-color: #232731;
     align-items: center;
-    height: 10rem;
+    padding: 2rem;
+    row-gap: 2rem;
+    column-gap: 2rem;
 }
 .flashcard-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 15rem;
+    background-color: #323949;
+    border-radius: 10px;
+    width: 100%;
+}
+.flashcard-cross {
+    align-self: flex-end;
+    justify-self: space-between;
+    height: 1rem;
 }
 
 .flashcard-emoji {
@@ -14,4 +29,15 @@
 }
 .flashcard-text {
     font-size: 18px;
+    max-width: 80%;
+}
+@media (max-width: 768px) {
+    .flashcard-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .flashcard-grid {
+        grid-template-columns: 1fr;
+    }
 }

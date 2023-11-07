@@ -1,0 +1,11 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding-block: 1rem;
+    background-color: #16181f;
+    width: 100vw;
+    max-height: 4rem;
+}
