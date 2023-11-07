@@ -1,6 +1,6 @@
 // import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
-import "./App.css";
+import "./Styles/App.css";
 import Flashcards from "./Flashcards";
 import Footer from "./Footer";
 import Form from "./Form";
