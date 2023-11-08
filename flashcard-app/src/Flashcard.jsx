@@ -4,17 +4,23 @@ import "./Styles/flashcards.css";
 export default function Flashcard({ answer, question }) {
 	const [flippedState, setFlippedState] = useState(false);
 
+	console.log(flippedState);
+
 	return (
 		<div
 			className="flashcard-item"
 			onClick={() => setFlippedState((prev) => !prev)}
 		>
-			<p className="flashcard-emoji">🤔</p>
-
 			{flippedState ? (
-				<p className="flashcard-text">{answer}</p>
+				<>
+					<p className="flashcard-emoji">🤯</p>
+					<p className="flashcard-text">{answer}</p>
+				</>
 			) : (
-				<p className="flashcard-text">{question}</p>
+				<>
+					<p className="flashcard-emoji">🤔</p>
+					<p className="flashcard-text">{question}</p>
+				</>
 			)}
 		</div>
 	);

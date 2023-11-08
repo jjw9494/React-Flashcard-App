@@ -14,10 +14,11 @@ const [db, setDb] = useState(data)
 		<>
 			<Header />
 			<Form />
-			<Flashcards db={db} />
+			<Flashcards db={db}/>
 			<Footer />
 		</>
 	);
 }
+
 
 export default App;
