@@ -9,11 +9,11 @@ import data from "../db.json";
 
 function App() {
 const [db, setDb] = useState(data)
-
+console.log(db)
 	return (
 		<>
 			<Header />
-			<Form />
+			<Form setDb={setDb}/>
 			<Flashcards db={db}/>
 			<Footer />
 		</>
