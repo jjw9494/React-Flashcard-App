@@ -8,17 +8,15 @@ import Header from "./Header";
 import data from "../db.json";
 
 function App() {
-const [db, setDb] = useState(data)
-console.log(db)
-	return (
-		<>
-			<Header />
-			<Form setDb={setDb}/>
-			<Flashcards db={db} setDb={setDb}/>
-			<Footer />
-		</>
-	);
+    const [db, setDb] = useState(data);
+    return (
+        <>
+            <Header />
+            <Form setDb={setDb} />
+            <Flashcards db={db} setDb={setDb} />
+            <Footer />
+        </>
+    );
 }
-
 
 export default App;
