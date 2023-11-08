@@ -20,7 +20,9 @@ input {
 	border-radius: 5px;
 	height: 2rem;
 	margin-left: 0.5rem;
-	background-color: #232731;
+	background-color: #383d4a88;
+	padding-left: 0.5rem;
+	text-align: left;
 }
 
 button {
