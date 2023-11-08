@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./Styles/flashcards.css";
-import data from "../db.json";
+
 import Flashcard from "./Flashcard";
 
-function Flashcards() {
-	const [db] = useState(data);
+function Flashcards({db}) {
+	
 	return (
 		<div>
 			<div className="flashcard-grid">
