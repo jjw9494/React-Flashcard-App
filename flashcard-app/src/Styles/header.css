@@ -1,16 +1,25 @@
 .header-container {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    height: 30vh;
-    background-color: #16181f;
-    gap: 1rem;
-    padding-block: 2rem;
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	height: 35vh;
+	background-color: #16181f;
+	gap: 1rem;
+	padding-block: 2rem;
 }
 
 .header-logo {
-    height: 6rem;
+	height: 6rem;
+}
+
+.header-title {
+	font-size: 3rem;
+}
+
+.header-subtitle {
+	font-size: 2rem;
+	margin-inline: 2rem;
 }
