@@ -10,8 +10,17 @@ export default function Flashcard({ answer, question, deleteCard, id }) {
 		<div
 			id={id}
 			className="flashcard-item"
+			style={
+				flippedState
+					? { backgroundColor: "#07b1df" }
+					: { backgroundColor: "#323949" }
+			}
 			onClick={() => setFlippedState((prev) => !prev)}
-		> <p id={id} className="flashcard-deletebtn" onClick={deleteCard}>❌</p>
+		>
+			{" "}
+			<p id={id} className="flashcard-deletebtn" onClick={deleteCard}>
+				❌
+			</p>
 			{flippedState ? (
 				<>
 					<p className="flashcard-emoji">🤯</p>
