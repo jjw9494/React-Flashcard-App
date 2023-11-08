@@ -14,7 +14,7 @@ console.log(db)
 		<>
 			<Header />
 			<Form setDb={setDb}/>
-			<Flashcards db={db}/>
+			<Flashcards db={db} setDb={setDb}/>
 			<Footer />
 		</>
 	);
