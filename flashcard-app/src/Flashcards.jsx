@@ -4,9 +4,10 @@ import Flashcard from "./Flashcard";
 
 function Flashcards({ db, setDb }) {
 	function deleteCard(e) {
-		let updatedArray = db.filter((x) => x.id !== e.target.id);
+		let updatedArray = db.filter((x) => x.id !== Number(e.target.id));
 		setDb(updatedArray);
 	}
+
 	return (
 		<div>
 			<div className="flashcard-grid">
