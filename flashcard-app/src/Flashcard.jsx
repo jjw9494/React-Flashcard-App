@@ -9,16 +9,12 @@ export default function Flashcard({ answer, question }) {
 			className="flashcard-item"
 			onClick={() => setFlippedState((prev) => !prev)}
 		>
+			<p className="flashcard-emoji">🤔</p>
+
 			{flippedState ? (
-				<>
-					<p className="flashcard-emoji">🤔</p>
-					<p className="flashcard-text">{answer}</p>
-				</>
+				<p className="flashcard-text">{answer}</p>
 			) : (
-				<>
-					<p className="flashcard-emoji">🤔</p>
-					<p className="flashcard-text">{question}</p>
-				</>
+				<p className="flashcard-text">{question}</p>
 			)}
 		</div>
 	);
