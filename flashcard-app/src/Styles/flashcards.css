@@ -21,11 +21,14 @@
 	cursor: pointer;
 	height: 100%;
 }
-.flashcard-deletebtn {
+.flashcard-edit-delete {
 	align-self: flex-end;
 	justify-self: space-between;
 	height: 1rem;
 	padding: 1rem;
+	gap: 2rem;
+	display: flex;
+	flex-direction: row;
 }
 
 .flashcard-emoji {
